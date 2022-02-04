@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#################### SCRIPT PARA BACKUP MYSQL ####################
-# Jeferson R. Costa <rc.jeferson@gmail.com>                      #
-# Created Feb, 2013                                              #
-# Update Feb, 2013                                               #
-
 # Definindo parametros do MySQL
 echo "  -- Definindo parametros do MySQL ..."
 DB_NAME='dbname'
