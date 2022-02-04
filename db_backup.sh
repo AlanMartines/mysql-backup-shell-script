@@ -62,3 +62,5 @@ rm -rf $NOW
 
 # Remove old files
 find $DEST -mtime +$DAYS -exec rm -f {} \;
+
+exit 0
