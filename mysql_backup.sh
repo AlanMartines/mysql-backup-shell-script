@@ -30,3 +30,5 @@ rm $sqlfile
 echo $zipfile
 # Delete old backups 
 find $backupfolder -mtime +$keep_day -delete
+
+exit 0
