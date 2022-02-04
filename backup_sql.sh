@@ -34,3 +34,5 @@ rm -rf $BACKUP_DIR/$BACKUP_NAME
 # Excluindo backups antigos
 echo " -- Excluindo backups com mais de 30 dias ..."
 find $BACKUP_DIR/* -mtime +30 -delete
+
+exit 0
