@@ -8,4 +8,4 @@ chmod +x /opt/scripts/<file_name>.sh
 
 #### Now Schedule The Script In Crontab
 
-0 2 * * * root /opt/scripts/<file_name>.sh
+0 0 * * * /bin/sh /opt/scripts/<file_name>.sh
